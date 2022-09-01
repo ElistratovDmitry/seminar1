@@ -17,7 +17,7 @@ if (number1==number2) {
     else 
     Console.WriteLine($"первое число {number1} больше, а второе число {number2} меньше");
 }
-Console.Writeline()
+Console.WriteLine("");
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
