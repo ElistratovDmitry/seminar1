@@ -36,7 +36,28 @@ Console.WriteLine("");
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 Console.WriteLine("ЗАДАЧА 6 ДЗ");
 Console.WriteLine("введи число ");
-int n=int.Parse(Console.ReadLine());
-if (n%2==0) Console.WriteLine("число четное");
+int n6=int.Parse(Console.ReadLine());
+if (n6%2==0) Console.WriteLine("число четное");
 else Console.WriteLine("число нечетное");
+Console.WriteLine("");
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
+//5 -> 2, 4
+//8 -> 2, 4, 6, 8
+Console.WriteLine("ЗАДАЧА 8 ДЗ");
+Console.WriteLine("введи число ");
+int n8=int.Parse(Console.ReadLine());
+int count=2;
+Console.WriteLine("четнве числа:");
+while (count<=n8) {
+Console.WriteLine(count);
+count=count+2;
+}
+
+
+//while (count<=n8);
+//{ 
+  //  if (count%2==0) Console.Write( count );
+    //count=count+1;
+//}
+Console.WriteLine("end");    
