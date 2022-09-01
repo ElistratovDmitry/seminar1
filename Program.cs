@@ -31,3 +31,12 @@ int n3=int.Parse(Console.ReadLine());
 int maximum = Math.Max(n1, n2);
 maximum = Math.Max(maximum, n3);
 Console.WriteLine($"максимальное число {maximum}");
+Console.WriteLine("");
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+Console.WriteLine("ЗАДАЧА 6 ДЗ");
+Console.WriteLine("введи число ");
+int n=int.Parse(Console.ReadLine());
+if (n%2==0) Console.WriteLine("число четное");
+else Console.WriteLine("число нечетное");
+
